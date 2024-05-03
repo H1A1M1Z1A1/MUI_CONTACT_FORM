@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  /* position: fixed; */
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: end;
+}
+nav ul li {
+  margin: 8px;
+  width: 50px;
+  height: 25px;
+  background-color: aqua;
+}
+
+.Bodyhead {
+  margin: 0px auto;
+  background-color: rgb(160, 194, 194);
+  align-items: center;
+  max-width: 80%;
+}
+.Contacthead {
+  margin: 50px 0;
+  background-color: rgb(160, 194, 194);
+  align-items: center;
+  max-width: 80%;
+}
+
+.Button {
+  background-color: black;
+  color: white;
+  /* width: 30%; */
+  margin: 5px;
+  height: 30px;
+  text-align: center;
+  border-radius: 3px;
+  padding: 3px;
+  max-width: 300px;
+  font-size: 1.2vw;
+}
+
+.top_btn {
+  display: flex;
+  justify-content: space-between;
+}
+.Contactform {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+.Contactform_inputs {
+  display: flex;
+  flex-direction: column;
+  /* width: 50%; */
+  padding: 10px;
+  margin: 15px;
+}
+
+.Contactform_inputs input {
+  margin-bottom: 15px;
+}
+
+.outlineBtn {
+  background-color: aquamarine;
+}
+
+.sbt_btn {
+  display: flex;
+  justify-content: end;
+}
+
+.contact_pic {
+  display: flex;
+  overflow: hidden;
+  /* justify-content: center; */
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.contact_pic img {
+  height: 500px;
+  width: 100%;
+  /* margin-left: 300px; */
+}
